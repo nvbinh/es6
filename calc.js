@@ -13,3 +13,8 @@ document.getElementById('calcBtn').addEventListener('click', function () {
     var monthlyPayment = calculateMonthlyPayment(principal, years, rate);
     document.getElementById("monthlyPayment").innerHTML = monthlyPayment.toFixed(2);
 });
+
+
+function testCI() {
+    console.log("Running CircleCI");
+}
